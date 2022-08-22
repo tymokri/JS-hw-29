@@ -6,7 +6,7 @@ function getRandomInRange(min, max) {
 
 function getNonRepetitiveRandomNumberFunctionFactory() {
 
-    let arrRandomNumbersDelivered = [];
+    const arrRandomNumbersDelivered = [];
 
     return function () {
 
